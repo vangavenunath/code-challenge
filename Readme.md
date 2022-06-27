@@ -23,3 +23,5 @@ npm run dev
 npm run build
 npm run start
 ```
+
+### To run tests manually in vscode using rest client extension. Please check `./test/sample.http`
