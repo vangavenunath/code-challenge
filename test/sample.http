@@ -1,0 +1,20 @@
+## This requires vscode extension "REST Client" to run
+### Add user
+
+POST http://localhost:5003/users HTTP/1.1
+content-type: application/json
+
+{
+    "name": "venu",
+    "email": "test@gmail.com",
+    "dob": "19/02/1990"
+}
+
+
+### Get user
+
+GET http://localhost:5003/users/d0cad796-d7a6-4206-86e7-30cbda91d02e HTTP/1.1
+
+### Delete user
+
+DELETE http://localhost:5003/users/d0cad796-d7a6-4206-86e7-30cbda91d02e HTTP/1.1
